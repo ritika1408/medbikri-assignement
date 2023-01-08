@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+    padding: 0.8rem;
+    height: 50px;
+  }
+  
+  .headerLink {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+  }
+
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 0.5rem;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .headerLink {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+  }
+}
